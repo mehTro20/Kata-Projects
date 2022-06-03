@@ -9,7 +9,9 @@
 
 
 const isTotalNumberOfworkersDivisible = (number, groupOne, groupTwo) => {
-     if ((number % groupOne) === 0 && (number % groupTwo) === 0){
+    let num = 0
+
+     if ((number % groupOne) === num && (number % groupTwo) === num){
          return true
      }else {
          return false
@@ -18,7 +20,7 @@ const isTotalNumberOfworkersDivisible = (number, groupOne, groupTwo) => {
 
 
 }
-console.log(isTotalNumberOfworkersDivisible(20, 3, 4))
+console.log(isTotalNumberOfworkersDivisible(10, 8, 4))
 //Don't forget to call your function
 
 // Duration: 10am 2022 03 03
